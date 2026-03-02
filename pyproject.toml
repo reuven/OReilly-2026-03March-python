@@ -1,0 +1,11 @@
+[project]
+name = "oreilly-2026-03march-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "gitautopush>=0.4.1",
+    "jupyter>=1.1.1",
+    "jupyter-core>=5.9.1",
+]
