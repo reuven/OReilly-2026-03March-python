@@ -9,4 +9,5 @@ dependencies = [
     "ipyparallel>=9.0.2",
     "jupyter>=1.1.1",
     "jupyter-core>=5.9.1",
+    "pandas>=3.0.1",
 ]
