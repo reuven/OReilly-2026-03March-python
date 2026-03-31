@@ -7,6 +7,6 @@ def menu(options):
 
         print(f'{user_choice} is invalid; try again!')
 
-pick = menu(['a', 'b', 'c'])
-
-print(f'You picked {pick}!')
+if __name__ == '__main__':
+    pick = menu(['a', 'b', 'c'])
+    print(f'You picked {pick}!')
