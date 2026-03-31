@@ -7,6 +7,6 @@ def menu(options):
 
         print(f'{user_choice} is invalid; try again!')
 
-if __name__ == '__main__':
+if __name__ == '__main__':   # only run this outside of an import statement
     pick = menu(['a', 'b', 'c'])
     print(f'You picked {pick}!')
