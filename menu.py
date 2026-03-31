@@ -6,3 +6,7 @@ def menu(options):
             return user_choice
 
         print(f'{user_choice} is invalid; try again!')
+
+pick = menu(['a', 'b', 'c'])
+
+print(f'You picked {pick}!')
